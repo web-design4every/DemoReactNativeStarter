@@ -17,7 +17,7 @@ const ImageScreen = () => {
             />
             <ImageDetail
                 title="moutain"
-                imageSource={require('../../assets/icon.png')}
+                imageSource={require('../../assets/download.png')}
                 score={3}
             />
         </View>
