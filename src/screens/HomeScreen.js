@@ -10,11 +10,11 @@ const HomeScreen = ({navigation}) => {
       title="Go to component page"
     />
     <Button 
-      onPress={() => navigation.navigate('ListScreen')}
+      onPress={() => navigation.navigate('List')}
       title="Go to the List Demo"
     />
     <Button 
-      onPress={() => navigation.navigate('ImageScreen')}
+      onPress={() => navigation.navigate('Image')}
       title="Go to Image page"
     />
     <Button 
@@ -22,12 +22,20 @@ const HomeScreen = ({navigation}) => {
       title="Go to Counter Page"
     />
     <Button 
-      onPress={() => navigation.navigate('ColorScreen')}
+      onPress={() => navigation.navigate('Color')}
       title="Go to Color Page"
     />
     <Button 
-      onPress={() => navigation.navigate('SquareScreen')}
+      onPress={() => navigation.navigate('Square')}
       title="Go to Square Page"
+    />
+    <Button 
+      onPress={() => navigation.navigate('Text')}
+      title="Go to Text Page"
+    />
+    <Button 
+      onPress={() => navigation.navigate('Box')}
+      title="Go to Box Page"
     />
     </View>
   );
